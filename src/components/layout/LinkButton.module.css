@@ -1,0 +1,16 @@
+.LinkButton{
+    background-color: #222;
+    color: white;
+
+    padding: 10px;
+    margin: 15px;
+
+    cursor: pointer;
+    border: none;
+
+    text-decoration: none;
+}
+
+.LinkButton:hover{
+    color: #ffbb33; 
+}

@@ -1,0 +1,14 @@
+.newProject{
+    width: 450px;
+    margin: 0 auto;
+
+    padding: 3em;
+}
+
+.newProject h1{
+    margin-bottom: .5em;
+}
+
+.newProject p{
+   color: rgb(166, 161, 161);
+}

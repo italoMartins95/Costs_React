@@ -1,0 +1,11 @@
+.projectForm{
+    width: 100%;
+
+    margin: 15px 0;
+}
+
+.projectForm label{
+    display: block;
+
+    margin: 5px 0;
+}

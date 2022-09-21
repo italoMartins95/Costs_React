@@ -1,0 +1,12 @@
+.Form_Control input{
+    width: 99%;
+    height: 35px;
+
+    outline: none;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+.Form_Control label{
+    display: block;
+}

@@ -1,0 +1,112 @@
+.cards{
+    width: 230px;
+
+    padding: 1em;
+    margin: 0.5%;
+
+    border: 1px solid #7a7a7a;
+    border-radius: 3px;
+}
+
+.cards div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.cards div .a{
+    color: #7a7a7a;
+    text-decoration: none;
+}*/
+
+.cards div button , .a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100px;
+    height: 40px;
+
+    background-color: #7a7a7a0e;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 2px;
+
+    font-size: 15px;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.cards div .a:hover , 
+.cards div button:hover{
+    background-color: #222;
+    color: #ffbb22;
+}
+
+.cards h4{
+    background-color: #222;
+    color: #ffbb22;
+
+    text-align: center;
+    
+    padding: .4em;
+    margin-bottom: 1.3em;
+}
+
+.cards p{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 1em;
+
+    color: #7a7a7a;
+}
+
+.cards span{
+    font-weight: bold;
+}
+
+.cards .categoryText{
+   align-items: center;
+   justify-content: start;
+}
+
+.categoryText span{
+    display: block;
+
+    width: 12px;
+    height: 12px;
+
+    background-color: #ccc;
+    border-radius: 50%;
+
+    margin-right: 1em;
+}
+
+.categoryText .infra{
+    background-color: rgb(250, 117, 73);
+}
+
+.categoryText .desenvolvimento{
+    background-color: rgb(145, 31, 244);
+}
+
+.categoryText .design{
+    background-color: rgb(37, 183, 37);
+}
+
+.categoryText .planejamento{
+    background-color: rgb(12, 84, 251);
+}
+
+.categoryText .suporte{
+    background-color: crimson;
+}
+
+.cards svg{
+    cursor: pointer;
+
+    font-size: 18px;
+}

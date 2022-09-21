@@ -1,0 +1,8 @@
+.Select select{
+    width: 100%;
+    height: 40px;
+
+    outline: none;
+    padding: 0 5px;
+    margin: 5px 0;
+}

@@ -1,0 +1,17 @@
+.button{
+    background-color: #222;
+    color: white;
+
+    padding: 10px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    color: #ffbb33; 
+}
+
+.custonButom{
+    margin: 25px auto;
+}

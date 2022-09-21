@@ -1,0 +1,42 @@
+footer{
+    height: 100px;
+    padding: 3em;
+
+    background-color: #222;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+}
+
+.socialMedia li{
+    display: inline-block;
+
+    margin: 0 10px;
+}
+
+.socialMedia svg{
+    color: white;
+    font-size: 2em;
+}
+
+.socialMedia svg:hover{
+    cursor: pointer;
+    color: #ffbb33;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+
+    padding: 1.5em;
+}
+
+footer span{    
+    color: #ffbb33;
+    font-weight: 500;
+}

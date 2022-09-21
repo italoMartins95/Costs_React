@@ -1,0 +1,84 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #222;
+    color: white;
+
+    height: 80px;
+}
+
+.navBar img{
+    margin: 0 40px;
+}
+
+.navBar ul{
+    margin: 0 40px;
+    list-style: none;
+}
+
+.navBar ul li{
+    display: inline-block;
+
+    margin: 0 20px;
+    cursor: pointer;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+}
+
+.Link:hover{
+    color: #ffbb22;
+}
+
+.menuHamburguer{
+    display: none;
+}
+
+@media(max-width: 600px){
+    .menuHamburguer{
+        display: block;
+
+        width: 45px;
+        height: 45px;
+    
+        margin: 0 30px;
+    }
+    
+    .menuHamburguer:before{
+        content: '';
+        display: block;
+    
+        position: relative;
+        left: 5%;
+        top: 25%;
+    
+        width: 90%;
+        height: 5px;
+    
+        background-color: white;
+        border-radius: 2px;
+    }
+    
+    .menuHamburguer:after{
+        content: '';
+        display: block;
+    
+        position: relative;
+        left: 5%;
+        top: 47%;
+    
+        width: 90%;
+        height: 5px;
+    
+        background-color: white;
+        border-radius: 2px;
+    }
+}
+
+
